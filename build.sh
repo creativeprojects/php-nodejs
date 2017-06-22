@@ -3,6 +3,8 @@
 image_name=creativeprojects/php-nodejs
 image_versions="5.6 7.0 7.1"
 
+cd $(dirname "${0}")
+
 for image_version in ${image_versions}; do
     echo Downloading php:${image_version}
     docker pull php:${image_version}
