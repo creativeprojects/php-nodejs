@@ -17,6 +17,9 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install bz2 calendar curl exif gd gettext mbstring mcrypt mysqli pdo pdo_mysql pgsql pdo_pgsql sockets zip \
     && pecl install xdebug \
     && docker-php-ext-enable xdebug \
+    && pecl install igbinary \
+    && printf "yes\n" | pecl install redis \
+    && docker-php-ext-enable igbinary redis \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/* \
     && curl --location --output /usr/local/bin/phpunit https://phar.phpunit.de/phpunit.phar \
