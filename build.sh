@@ -11,8 +11,8 @@ for image_version in ${image_versions}; do
     echo Downloading php:${image_version}
     docker pull php:${image_version}
 
-    # docker rmi ${image_name}:${image_version}
-    # docker rmi ${image_name}:latest
+    docker rmi ${image_name}:${image_version}
+    docker rmi ${image_name}:latest
 
     echo Building image ${image_name}:${image_version}
     docker build -t ${image_name}:${image_version} \
