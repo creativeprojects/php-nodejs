@@ -14,6 +14,7 @@ for image_version in ${image_versions}; do
 
     echo Building image ${image_name}:${image_version}
     docker build \
+        --pull \
         --build-arg http_proxy=${http_proxy} \
         -t ${image_name}:${image_version} \
         -t ${image_name}:latest \
