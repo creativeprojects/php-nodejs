@@ -1,11 +1,9 @@
 #!/bin/sh
 
 image_name=creativeprojects/php-nodejs
-image_versions="5.6 7.0 7.1 7.2"
+image_versions="5.6 7.0 7.1 7.2 7.3"
 
 cd $(dirname "${0}")
-
-git pull
 
 for image_version in ${image_versions}; do
     echo Downloading php:${image_version}
