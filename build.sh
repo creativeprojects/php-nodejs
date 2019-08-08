@@ -15,10 +15,12 @@ for image_version in ${image_versions}; do
     docker rmi ${image_name}:latest
 
     echo Building image ${image_name}:${image_version}
-    docker build -t ${image_name}:${image_version} \
-                 -t ${image_name}:latest \
-                 -f Dockerfile-php${image_version} \
-                 ./
+    docker build \
+        --build-arg http_proxy=${http_proxy} \
+        -t ${image_name}:${image_version} \
+        -t ${image_name}:latest \
+        -f php${image_version}.Dockerfile \
+        ./
 
     echo Pushing image ${image_name}:${image_version}
     docker push ${image_name}:${image_version}
