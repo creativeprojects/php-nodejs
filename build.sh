@@ -1,13 +1,13 @@
 #!/bin/sh
 
 image_name=creativeprojects/php-nodejs
-image_versions="5.6 7.0 7.1 7.2 7.3"
+image_versions="5.6 7.3 7.4"
 
 cd $(dirname "${0}")
 
 for image_version in ${image_versions}; do
-    echo Downloading php:${image_version}
-    docker pull php:${image_version}
+    echo Downloading creativeprojects/php-ci:${image_version}
+    docker pull creativeprojects/php-ci:${image_version}
 
     docker rmi ${image_name}:${image_version}
     docker rmi ${image_name}:latest
