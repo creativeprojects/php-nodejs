@@ -1,6 +1,6 @@
 # php-nodejs
 
-PHP images for running _phpunit_ unit tests in Continuous Integration with nodejs 10.x and yarn installed
+PHP images for running _phpunit_ unit tests in Continuous Integration with nodejs and yarn installed
 
 These images are based on the php official image, with these modules added:
 
@@ -69,6 +69,24 @@ Also available in the image:
 * xdebug 2.7.2
 * igbinary (latest)
 * php redis (latest)
-* nodejs v10
+* nodejs v12
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.3.Dockerfile)
+
+## php 7.4
+
+* xdebug 3.1.1
+* igbinary (latest)
+* php redis (latest)
+* nodejs v14
+
+[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.4.Dockerfile)
+
+## php 8.2
+
+* xdebug 3.2.2
+* igbinary (latest)
+* php redis (latest)
+* nodejs v17
+
+[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php8.2.Dockerfile)

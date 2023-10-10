@@ -1,7 +1,7 @@
 #!/bin/sh
 
 image_name=creativeprojects/php-nodejs
-image_versions="5.6 7.3 7.4"
+image_versions="5.6 7.4 8.2"
 
 cd $(dirname "${0}")
 
