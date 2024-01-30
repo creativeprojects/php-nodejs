@@ -37,48 +37,12 @@ Also available in the image:
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php5.6.Dockerfile)
 
-## php 7.0
-
-* xdebug 2.6.1
-* igbinary (latest)
-* php redis (latest)
-* nodejs v8
-
-[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.0.Dockerfile)
-
-## php 7.1
-
-* xdebug 2.7.2
-* igbinary (latest)
-* php redis (latest)
-* nodejs v10
-
-[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.1.Dockerfile)
-
-## php 7.2
-
-* xdebug 2.7.2
-* igbinary (latest)
-* php redis (latest)
-* nodejs v10
-
-[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.2.Dockerfile)
-
-## php 7.3
-
-* xdebug 2.7.2
-* igbinary (latest)
-* php redis (latest)
-* nodejs v12
-
-[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.3.Dockerfile)
-
 ## php 7.4
 
 * xdebug 3.1.1
 * igbinary (latest)
 * php redis (latest)
-* nodejs v14
+* nodejs v18
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.4.Dockerfile)
 
@@ -87,6 +51,6 @@ Also available in the image:
 * xdebug 3.2.2
 * igbinary (latest)
 * php redis (latest)
-* nodejs v17
+* nodejs v18
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php8.2.Dockerfile)
