@@ -3,7 +3,7 @@
 image_name=creativeprojects/php-nodejs
 image_versions="8.2"
 
-cd $(dirname "${0}")
+cd "$(dirname "${0}")"
 
 for image_version in ${image_versions}; do
     echo Downloading creativeprojects/php-ci:${image_version}

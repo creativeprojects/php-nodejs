@@ -33,7 +33,7 @@ Also available in the image:
 * xdebug 2.5.5
 * igbinary 2.0.8
 * php redis 4.3.0
-* nodejs v8
+* nodejs v18
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php5.6.Dockerfile)
 
@@ -51,6 +51,6 @@ Also available in the image:
 * xdebug 3.2.2
 * igbinary (latest)
 * php redis (latest)
-* nodejs v18
+* nodejs v20
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php8.2.Dockerfile)
