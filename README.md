@@ -37,20 +37,20 @@ Also available in the image:
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php5.6.Dockerfile)
 
-## php 7.4
-
-* xdebug 3.1.1
-* igbinary (latest)
-* php redis (latest)
-* nodejs v18
-
-[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php7.4.Dockerfile)
-
 ## php 8.2
 
-* xdebug 3.2.2
+* xdebug 3.4.5
 * igbinary (latest)
 * php redis (latest)
 * nodejs v20
 
 [Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php8.2.Dockerfile)
+
+## php 8.4
+
+* xdebug 3.4.5
+* igbinary (latest)
+* php redis (latest)
+* nodejs v22
+
+[Dockerfile](https://github.com/creativeprojects/php-nodejs/blob/master/php8.4.Dockerfile)
